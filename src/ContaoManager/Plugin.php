@@ -21,7 +21,7 @@ class Plugin implements BundlePluginInterface, RoutingPluginInterface {
 		return [
 			BundleConfig::create(KptecLmBundle::class)
 				->setLoadAfter([ContaoCoreBundle::class])
-				->setReplace(['kptec'])
+				->setReplace(['ynfinite'])
 		];
 	}
 

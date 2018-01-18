@@ -1,6 +1,5 @@
 services:
-  kptec.lm-bundle.communication:
-    class: 'Kptec\LmBundle\EventListener\YnfiniteCommunicationService'
-    decorates: ynfinite.contao-com.listener.communication
-    arguments: ["@contao.framework", "@kptec.lm-bundle.communication.inner"]
-    public: false
+  ynfinite.contao-com.listener.communication:
+    class: 'Kptec\LmBundle\EventListener\ExtYnfiniteCommunicationService'
+    arguments:
+      - "@contao.framework"
