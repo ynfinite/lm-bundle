@@ -10,7 +10,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\ConfigurableExtension;
 class KptecLmExtension extends ConfigurableExtension {
 	
 	protected function loadInternal (array $mergedConfig, ContainerBuilder $container) {
-		$loader = new YamlFileLoader($container, new FileLocator(__DIR__."/../Resources/config"));
+		$loader = new ymlamlFileLoader($container, new FileLocator(__DIR__."/../Resources/config"));
 		$loader->load('services.yml');
 	}
 

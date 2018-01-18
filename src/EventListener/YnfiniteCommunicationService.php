@@ -17,7 +17,7 @@ class YnfiniteCommunicationService {
 
 	public function cacheData($httpMethod, $data, $result){
 
-	    error_log("IN DECORATOR SERVICE");
+	    var_dump($result);
 
 		if($result->hits) {
 			if(count($result->hits->hits) > 0) {

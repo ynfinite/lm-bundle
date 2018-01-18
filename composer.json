@@ -18,16 +18,14 @@
         "contao/core-bundle": "~4.4.0",
         "Doctrine/ORM": "^2.5",
         "doctrine/data-fixtures": "1.0.*",
-        "doctrine/dbal": "~2.4",
-        "ynfinite/contao-com-bundle": "*"
+        "doctrine/dbal": "~2.4"
     },
     "require-dev": {
         "contao/manager-plugin": "~2.0"
     },
     "conflict": {
         "contao/core": "*",
-        "contao/manager-plugin": "<2.0 || >=3.0",
-        "ynfinite/contao-com-bundle": "*"
+        "contao/manager-plugin": "<2.0 || >=3.0"
     },
     "autoload": {
         "psr-4": {
