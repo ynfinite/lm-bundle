@@ -19,7 +19,7 @@
         "Doctrine/ORM": "^2.5",
         "doctrine/data-fixtures": "1.0.*",
         "doctrine/dbal": "~2.4",
-        "ynfinite/contao-com-bundle"
+        "ynfinite/contao-com-bundle": "*"
     },
     "require-dev": {
         "contao/manager-plugin": "~2.0"
